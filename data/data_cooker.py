@@ -71,8 +71,6 @@ def train_and_predict(x_train, y_train, x_test):
 
 if __name__ == '__main__':
     key_name = "企业名称"
-    a = np.array([1, 2, 3])
-    print(np.array([a, a]))
 
     # 企业表彰荣誉信息.csv
     honor = feature_honor(train_data_dir)
